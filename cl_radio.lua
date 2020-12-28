@@ -68,9 +68,9 @@ function OpenRadioMenu()
 			if testaa ~= nil and testaa > 5 and testaa < 100 then
 				radiossa = testaa
 				exports.tokovoip_script:addPlayerToRadio(radiossa, true)
-				ESX.ShowNotification('~g~Liityit radiotaajuudelle~w~ '..radiossa)
+				ESX.ShowNotification('~g~Sinun taajuus:~w~ '..radiossa)
 			else
-				ESX.ShowNotification('~r~Virheellinen radiossa')
+				ESX.ShowNotification('~r~Virheellinen taajuus!')
 			end
 		elseif data.current.value == 'poistu' then
 		else
